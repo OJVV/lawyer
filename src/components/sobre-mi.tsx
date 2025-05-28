@@ -30,7 +30,7 @@ export const SobreMi: React.FC = () => {
             </div>
             <div className="md:w-2/3">
               <h2 className="text-2xl md:text-3xl font-serif mb-4 text-neutral-800">
-                Lic. Adriana Cardoza
+                Abg. Adriana Cardoza
               </h2>
               <p className="text-neutral-600 mb-6">
                 Soy una abogada con más de 10 años de experiencia en el ámbito legal, especializada en derecho civil y familiar. Mi pasión por la justicia y el compromiso con mis clientes me han permitido construir una carrera sólida basada en la confianza, la ética profesional y los resultados.
@@ -75,16 +75,16 @@ export const SobreMi: React.FC = () => {
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Maestría en Derecho Civil</h3>
-                    <p className="text-neutral-500 mb-2">Universidad Nacional Autónoma de México</p>
-                    <p className="text-sm text-neutral-600">2010 - 2012</p>
+                    <p className="text-neutral-500 mb-2">UNICAH </p>
+                    <p className="text-sm text-neutral-600">2014 - 2016</p>
                   </CardBody>
                 </Card>
                 
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Licenciatura en Derecho</h3>
-                    <p className="text-neutral-500 mb-2">Universidad Iberoamericana</p>
-                    <p className="text-sm text-neutral-600">2005 - 2009</p>
+                    <p className="text-neutral-500 mb-2">UNICAH</p>
+                    <p className="text-sm text-neutral-600">2009 - 2014</p>
                   </CardBody>
                 </Card>
                 
@@ -92,7 +92,7 @@ export const SobreMi: React.FC = () => {
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Diplomado en Mediación y Resolución de Conflictos</h3>
                     <p className="text-neutral-500 mb-2">Instituto de Justicia Alternativa</p>
-                    <p className="text-sm text-neutral-600">2013</p>
+                    <p className="text-sm text-neutral-600">2015</p>
                   </CardBody>
                 </Card>
               </div>
@@ -118,7 +118,7 @@ export const SobreMi: React.FC = () => {
                 
                 <Card className="border border-neutral-200">
                   <CardBody>
-                    <h3 className="text-lg font-semibold mb-1">Asociada Senior</h3>
+                    <h3 className="text-lg font-semibold mb-1">Asociada</h3>
                     <p className="text-neutral-500 mb-2">Martínez & Asociados</p>
                     <p className="text-sm text-neutral-600 mb-3">2012 - 2015</p>
                     <p className="text-neutral-600">
@@ -129,7 +129,7 @@ export const SobreMi: React.FC = () => {
                 
                 <Card className="border border-neutral-200">
                   <CardBody>
-                    <h3 className="text-lg font-semibold mb-1">Abogada Junior</h3>
+                    <h3 className="text-lg font-semibold mb-1">Abogada</h3>
                     <p className="text-neutral-500 mb-2">Despacho Legal González</p>
                     <p className="text-sm text-neutral-600 mb-3">2009 - 2012</p>
                     <p className="text-neutral-600">
