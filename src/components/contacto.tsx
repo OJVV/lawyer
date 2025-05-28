@@ -98,7 +98,7 @@ export const Contacto: React.FC = () => {
                 color="primary" 
                 size="lg"
                 as="a"
-                href="tel:+1234567890"
+                href="wa.link/4z4mtj"
                 startContent={<Icon icon="lucide:phone" />}
               >
                 Llamar Ahora
