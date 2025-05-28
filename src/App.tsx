@@ -75,7 +75,7 @@ export default function App() {
               as={Link} 
               color="primary" 
               variant="flat" 
-              href="#contacto"
+              href="https://wa.link/4z4mtj"
               onClick={() => handleNavigation("contacto")}
               startContent={<Icon icon="lucide:phone" />}
             >
@@ -149,7 +149,7 @@ export default function App() {
             <div>
               <h3 className="text-lg font-serif mb-4 text-white">Contacto</h3>
               <p className="text-sm flex items-center mb-2">
-                <Icon icon="lucide:map-pin" className="mr-2" /> Av. Principal #123, Ciudad
+                <Icon icon="lucide:map-pin" className="mr-2" /> Av. Principal #123, Santa Rosa de Copán
               </p>
               <p className="text-sm flex items-center mb-2">
                 <Icon icon="lucide:phone" className="mr-2" /> (123) 456-7890

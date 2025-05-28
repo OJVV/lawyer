@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardBody, Divider } from "@heroui/react";
 import { Icon } from "@iconify/react";
+import adriImg from '../assets/adri.jpeg';
 
 export const SobreMi: React.FC = () => {
   return (
@@ -21,10 +22,10 @@ export const SobreMi: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
             <div className="md:w-1/3">
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img 
-                  src="https://img.heroui.chat/image/avatar?w=600&h=800&u=2" 
-                  alt="Adriana Cardoza - Abogada" 
-                  className="w-full h-auto object-cover"
+              <img 
+                src={adriImg} 
+                alt="Adriana Cardoza - Abogada" 
+                className="w-full h-full object-cover"
                 />
               </div>
             </div>

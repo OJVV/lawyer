@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Card, CardBody } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
+
 interface InicioProps {
   onContactClick: () => void;
 }
@@ -23,10 +24,11 @@ export const Inicio: React.FC<InicioProps> = ({ onContactClick }) => {
               <Button 
                 color="primary" 
                 size="lg"
+                href="https://wa.link/4z4mtj"
                 onPress={onContactClick}
                 endContent={<Icon icon="lucide:arrow-right" />}
               >
-                Consulta Gratuita
+                Consulta
               </Button>
               <Button 
                 variant="bordered" 
