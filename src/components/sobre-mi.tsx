@@ -44,10 +44,7 @@ export const SobreMi: React.FC = () => {
               </p>
 
               <div className="flex flex-wrap gap-4 mb-6">
-                <div className="flex items-center">
-                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
-                  <span>Cédula Profesional: 12345678</span>
-                </div>
+               
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
                   <span>Miembro del Colegio de Abogados</span>
