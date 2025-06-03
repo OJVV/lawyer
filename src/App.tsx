@@ -156,24 +156,23 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-serif mb-4 text-white">Adriana Cardoza</h3>
-              <p className="text-sm mb-2">Abogada especialista en derecho civil y familiar</p>
+              <p className="text-sm mb-2">Asesora jurídica con perspectiva innovadora.</p>
             </div>
             <div>
               <h3 className="text-lg font-serif mb-4 text-white">Contacto</h3>
               <p className="text-sm flex items-center mb-2">
-                <Icon icon="lucide:map-pin" className="mr-2" /> Av. Principal #123, Santa Rosa de Copán
+                <Icon icon="lucide:map-pin" className="mr-2" /> Av. Principal Santa Rosa de Copán
               </p>
               <p className="text-sm flex items-center mb-2">
-                <Icon icon="lucide:phone" className="mr-2" /> (123) 456-7890
+                <Icon icon="lucide:phone" className="mr-2" /> +504 9778-2107 
               </p>
               <p className="text-sm flex items-center">
-                <Icon icon="lucide:mail" className="mr-2" /> contacto@adrianacardoza.com
+                <Icon icon="lucide:mail" className="mr-2" /> adrianagisselcardoza@gmail.com
               </p>
             </div>
             <div>
               <h3 className="text-lg font-serif mb-4 text-white">Horario</h3>
-              <p className="text-sm mb-2">Lunes a Viernes: 9:00 - 18:00</p>
-              <p className="text-sm">Sábados: 10:00 - 14:00</p>
+              <p className="text-sm mb-2">Lunes a Viernes: 8:00 - 12:00pm, 1:00 - 4:00pm</p>
               <div className="flex mt-4 space-x-3">
                 <Link href="#" aria-label="Facebook">
                   <Icon icon="lucide:facebook" className="text-xl" />

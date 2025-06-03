@@ -44,38 +44,26 @@ export const SobreMi: React.FC = () => {
               </p>
 
               <div className="flex flex-wrap gap-4 mb-6">
+                {/* Se mantienen solo Miembro del Colegio de Abogados y se añaden los nuevos puntos */}
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
                   <span>Miembro del Colegio de Abogados</span>
                 </div>
-                {/* Nuevos elementos para "Sobre mí" que son más generales */}
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
                   <span>Pasante de la carrera de Lenguas-Español</span>
                 </div>
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
-                  <span>Diplomado en Gestión de la Calidad</span>
+                  <span>Gestión de la Calidad</span>
                 </div>
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
-                  <span>Diplomado en Legislación Laboral en Honduras</span>
+                  <span>Legislación Laboral en Honduras</span>
                 </div>
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
-                  <span>Diplomado en Inglés para la Comunicación Internacional</span>
-                </div>
-                <div className="flex items-center">
-                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
-                  <span>Diplomado sobre la Extradición y Extradiciones en Honduras</span>
-                </div>
-                 <div className="flex items-center">
-                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
-                  <span>Diplomado en Derecho Notarial</span>
-                </div>
-                 <div className="flex items-center">
-                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
-                  <span>Diplomado en Criminalística</span>
+                  <span>Criminalística</span>
                 </div>
               </div>
             </div>
@@ -94,77 +82,46 @@ export const SobreMi: React.FC = () => {
               </h2>
 
               <div className="space-y-6">
+                {/* Aquí se reemplaza toda la formación académica anterior con la nueva lista de diplomados */}
                 <Card className="border border-neutral-200">
                   <CardBody>
-                    <h3 className="text-lg font-semibold mb-1">Maestría en Derecho Civil</h3>
-                    <p className="text-neutral-500 mb-2">UNICAH </p>
-                    <p className="text-sm text-neutral-600">2014 - 2016</p>
+                    <h3 className="text-lg font-semibold mb-1">Pasante de la carrera de Lenguas-Español</h3>
+                   
                   </CardBody>
                 </Card>
-
-                <Card className="border border-neutral-200">
-                  <CardBody>
-                    <h3 className="text-lg font-semibold mb-1">Licenciatura en Derecho</h3>
-                    <p className="text-neutral-500 mb-2">UNICAH</p>
-                    <p className="text-sm text-neutral-600">2009 - 2014</p>
-                  </CardBody>
-                </Card>
-
-                {/* Nuevos diplomados en Formación Académica */}
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Diplomado en Gestión de la Calidad</h3>
-                    <p className="text-neutral-500 mb-2">Institución no especificada</p> {/* Puedes añadir la institución si la tienes */}
-                    <p className="text-sm text-neutral-600">Año (ej. 2017)</p> {/* Puedes añadir el año */}
+  
                   </CardBody>
                 </Card>
-
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Diplomado en Legislación Laboral en Honduras</h3>
-                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
-                    <p className="text-sm text-neutral-600">Año (ej. 2018)</p>
+                 
                   </CardBody>
                 </Card>
-
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Diplomado en Inglés para la Comunicación Internacional</h3>
-                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
-                    <p className="text-sm text-neutral-600">Año (ej. 2019)</p>
+                 
                   </CardBody>
                 </Card>
-
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Diplomado sobre la Extradición y Extradiciones en Honduras</h3>
-                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
-                    <p className="text-sm text-neutral-600">Año (ej. 2020)</p>
+               
                   </CardBody>
                 </Card>
-
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Diplomado en Derecho Notarial</h3>
-                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
-                    <p className="text-sm text-neutral-600">Año (ej. 2021)</p>
+               
                   </CardBody>
                 </Card>
-
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Diplomado en Criminalística</h3>
-                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
-                    <p className="text-sm text-neutral-600">Año (ej. 2022)</p>
-                  </CardBody>
-                </Card>
-
-                {/* Mantuve el diplomado original si todavía es relevante */}
-                <Card className="border border-neutral-200">
-                  <CardBody>
-                    <h3 className="text-lg font-semibold mb-1">Diplomado en Mediación y Resolución de Conflictos</h3>
-                    <p className="text-neutral-500 mb-2">Instituto de Justicia Alternativa</p>
-                    <p className="text-sm text-neutral-600">2015</p>
                   </CardBody>
                 </Card>
               </div>
@@ -180,10 +137,10 @@ export const SobreMi: React.FC = () => {
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Fundadora y Abogada Principal</h3>
-                    <p className="text-neutral-500 mb-2">Bufete Jurídico Cardoza</p>
+                    <p className="text-neutral-500 mb-2">Abg. Cardoza</p>
                     <p className="text-sm text-neutral-600 mb-3">2015 - Presente</p>
                     <p className="text-neutral-600">
-                      Dirección del despacho legal especializado en derecho civil y familiar, con un equipo de profesionales dedicados a brindar asesoría legal de calidad.
+                     Profesional dedicada a brindar asesoría legal de calidad.
                     </p>
                   </CardBody>
                 </Card>
@@ -263,81 +220,7 @@ export const SobreMi: React.FC = () => {
       </section>
 
       {/* Publications & Recognitions */}
-      <section className="py-16 bg-neutral-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-serif text-center mb-12 text-neutral-800">
-            Publicaciones y Reconocimientos
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* Publications */}
-            <div>
-              <h3 className="text-xl font-semibold mb-6 flex items-center">
-                <Icon icon="lucide:file-text" className="mr-2" /> Publicaciones
-              </h3>
-
-              <div className="space-y-4">
-                <div className="p-4 border border-neutral-200 rounded-lg">
-                  <h4 className="font-medium mb-1">"Nuevas Tendencias en el Derecho Familiar"</h4>
-                  <p className="text-sm text-neutral-500 mb-2">Revista Jurídica Nacional, 2020</p>
-                  <p className="text-neutral-600 text-sm">
-                    Análisis de las tendencias recientes en la legislación familiar y su impacto en los procedimientos judiciales.
-                  </p>
-                </div>
-
-                <div className="p-4 border border-neutral-200 rounded-lg">
-                  <h4 className="font-medium mb-1">"La Mediación como Alternativa en Conflictos Familiares"</h4>
-                  <p className="text-sm text-neutral-500 mb-2">Editorial Jurídica, 2018</p>
-                  <p className="text-neutral-600 text-sm">
-                    Libro que explora los beneficios de la mediación en la resolución de conflictos familiares.
-                  </p>
-                </div>
-
-                <div className="p-4 border border-neutral-200 rounded-lg">
-                  <h4 className="font-medium mb-1">"Derechos de los Menores en Procesos de Divorcio"</h4>
-                  <p className="text-sm text-neutral-500 mb-2">Congreso Nacional de Derecho, 2017</p>
-                  <p className="text-neutral-600 text-sm">
-                    Ponencia sobre la protección de los derechos de los menores durante los procesos de divorcio.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Recognitions */}
-            <div>
-              <h3 className="text-xl font-semibold mb-6 flex items-center">
-                <Icon icon="lucide:award" className="mr-2" /> Reconocimientos
-              </h3>
-
-              <div className="space-y-4">
-                <div className="p-4 border border-neutral-200 rounded-lg">
-                  <h4 className="font-medium mb-1">Premio a la Excelencia Legal</h4>
-                  <p className="text-sm text-neutral-500 mb-2">Colegio de Abogados, 2021</p>
-                  <p className="text-neutral-600 text-sm">
-                    Reconocimiento por la contribución destacada en el ámbito del derecho familiar.
-                  </p>
-                </div>
-
-                <div className="p-4 border border-neutral-200 rounded-lg">
-                  <h4 className="font-medium mb-1">Abogada del Año en Derecho Civil</h4>
-                  <p className="text-sm text-neutral-500 mb-2">Revista Jurídica Nacional, 2019</p>
-                  <p className="text-neutral-600 text-sm">
-                    Reconocimiento por casos destacados y contribuciones al campo del derecho civil.
-                  </p>
-                </div>
-
-                <div className="p-4 border border-neutral-200 rounded-lg">
-                  <h4 className="font-medium mb-1">Certificación en Mediación Familiar</h4>
-                  <p className="text-sm text-neutral-500 mb-2">Instituto de Justicia Alternativa, 2016</p>
-                  <p className="text-neutral-600 text-sm">
-                    Certificación especializada en técnicas de mediación para conflictos familiares.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
     </div>
   );
 };

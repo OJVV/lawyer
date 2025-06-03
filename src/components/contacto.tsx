@@ -29,8 +29,8 @@ export const Contacto: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-medium mb-1">Dirección</h3>
-                    <p className="text-neutral-600">Av. Principal #123</p>
-                    <p className="text-neutral-600">Ciudad, CP 12345</p>
+                    <p className="text-neutral-600">Av. Principal</p>
+                    <p className="text-neutral-600">Santa Rosa de Copán</p>
                   </div>
                 </CardBody>
               </Card>
@@ -42,8 +42,8 @@ export const Contacto: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-medium mb-1">Teléfono</h3>
-                    <p className="text-neutral-600">(123) 456-7890</p>
-                    <p className="text-neutral-600">(123) 456-7891</p>
+                    <p className="text-neutral-600">+504 9778-2107 </p>
+                    <p className="text-neutral-600"></p>
                   </div>
                 </CardBody>
               </Card>
@@ -55,8 +55,8 @@ export const Contacto: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-medium mb-1">Email</h3>
-                    <p className="text-neutral-600">contacto@adrianacardoza.com</p>
-                    <p className="text-neutral-600">info@adrianacardoza.com</p>
+                    <p className="text-neutral-600">adrianagisselcardoza@gmail.com </p>
+                   
                   </div>
                 </CardBody>
               </Card>
@@ -68,8 +68,7 @@ export const Contacto: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-medium mb-1">Horario de Atención</h3>
-                    <p className="text-neutral-600">Lunes a Viernes: 9:00 - 18:00</p>
-                    <p className="text-neutral-600">Sábados: 10:00 - 14:00</p>
+                    <p className="text-neutral-600">Lunes a Viernes: 8:00 - 12:00 pm. 1:00PM A 4:00PM</p>
                   </div>
                 </CardBody>
               </Card>
