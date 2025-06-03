@@ -8,10 +8,14 @@ import { Contacto } from "./components/contacto";
 
 export default function App() {
   const [activeSection, setActiveSection] = React.useState("inicio");
+  // 1. Añade un estado para controlar si el menú está abierto
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const handleNavigation = (section: string) => {
     setActiveSection(section);
     window.history.pushState({}, "", `#${section}`);
+    // 3. Cierra el menú después de la navegación
+    setIsMenuOpen(false);
   };
 
   React.useEffect(() => {
@@ -23,8 +27,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-neutral-50">
-      <Navbar className="bg-white border-b border-neutral-200" maxWidth="xl">
-        <NavbarMenuToggle className="sm:hidden" />
+      <Navbar 
+        className="bg-white border-b border-neutral-200" 
+        maxWidth="xl"
+        // 2. Controla el estado de apertura/cierre del menú
+        isMenuOpen={isMenuOpen}
+        onMenuOpenChange={setIsMenuOpen} // Esto actualiza isMenuOpen cuando el usuario usa el toggle
+      >
+        <NavbarMenuToggle className="sm:hidden" aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
         <NavbarBrand>
           <p className="font-serif text-xl font-semibold text-neutral-800">
             Adriana Cardoza
@@ -76,7 +86,10 @@ export default function App() {
               color="primary" 
               variant="flat" 
               href="https://wa.link/4z4mtj"
-              onClick={() => handleNavigation("contacto")}
+              onClick={() => {
+                handleNavigation("contacto");
+                setIsMenuOpen(false); // Asegúrate de cerrar el menú si se abre desde el botón de consulta
+              }}
               startContent={<Icon icon="lucide:phone" />}
             >
               Consulta
