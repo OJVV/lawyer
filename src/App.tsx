@@ -144,7 +144,6 @@ export default function App() {
             <div>
               <h3 className="text-lg font-serif mb-4 text-white">Adriana Cardoza</h3>
               <p className="text-sm mb-2">Abogada especialista en derecho civil y familiar</p>
-       
             </div>
             <div>
               <h3 className="text-lg font-serif mb-4 text-white">Contacto</h3>

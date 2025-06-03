@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardBody, Divider } from "@heroui/react";
 import { Icon } from "@iconify/react";
-import adriImg from '../assets/adri.jpeg';
+import adriImg from '../assets/adri.jpg';
 
 export const SobreMi: React.FC = () => {
   return (
@@ -44,7 +44,7 @@ export const SobreMi: React.FC = () => {
               </p>
 
               <div className="flex flex-wrap gap-4 mb-6">
-               
+              
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
                   <span>Miembro del Colegio de Abogados</span>
