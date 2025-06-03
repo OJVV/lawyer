@@ -22,9 +22,9 @@ export const SobreMi: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
             <div className="md:w-1/3">
               <div className="rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src={adriImg} 
-                alt="Adriana Cardoza - Abogada" 
+              <img
+                src={adriImg}
+                alt="Adriana Cardoza - Abogada"
                 className="w-full h-full object-cover"
                 />
               </div>
@@ -44,14 +44,38 @@ export const SobreMi: React.FC = () => {
               </p>
 
               <div className="flex flex-wrap gap-4 mb-6">
-              
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
                   <span>Miembro del Colegio de Abogados</span>
                 </div>
+                {/* Nuevos elementos para "Sobre mí" que son más generales */}
                 <div className="flex items-center">
                   <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
-                  <span>Certificación en Mediación</span>
+                  <span>Pasante de la carrera de Lenguas-Español</span>
+                </div>
+                <div className="flex items-center">
+                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
+                  <span>Diplomado en Gestión de la Calidad</span>
+                </div>
+                <div className="flex items-center">
+                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
+                  <span>Diplomado en Legislación Laboral en Honduras</span>
+                </div>
+                <div className="flex items-center">
+                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
+                  <span>Diplomado en Inglés para la Comunicación Internacional</span>
+                </div>
+                <div className="flex items-center">
+                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
+                  <span>Diplomado sobre la Extradición y Extradiciones en Honduras</span>
+                </div>
+                 <div className="flex items-center">
+                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
+                  <span>Diplomado en Derecho Notarial</span>
+                </div>
+                 <div className="flex items-center">
+                  <Icon icon="lucide:check-circle" className="text-green-600 mr-2" />
+                  <span>Diplomado en Criminalística</span>
                 </div>
               </div>
             </div>
@@ -68,7 +92,7 @@ export const SobreMi: React.FC = () => {
               <h2 className="text-2xl font-serif mb-8 text-neutral-800 flex items-center">
                 <Icon icon="lucide:book-open" className="mr-2" /> Formación Académica
               </h2>
-              
+
               <div className="space-y-6">
                 <Card className="border border-neutral-200">
                   <CardBody>
@@ -77,7 +101,7 @@ export const SobreMi: React.FC = () => {
                     <p className="text-sm text-neutral-600">2014 - 2016</p>
                   </CardBody>
                 </Card>
-                
+
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Licenciatura en Derecho</h3>
@@ -85,7 +109,57 @@ export const SobreMi: React.FC = () => {
                     <p className="text-sm text-neutral-600">2009 - 2014</p>
                   </CardBody>
                 </Card>
-                
+
+                {/* Nuevos diplomados en Formación Académica */}
+                <Card className="border border-neutral-200">
+                  <CardBody>
+                    <h3 className="text-lg font-semibold mb-1">Diplomado en Gestión de la Calidad</h3>
+                    <p className="text-neutral-500 mb-2">Institución no especificada</p> {/* Puedes añadir la institución si la tienes */}
+                    <p className="text-sm text-neutral-600">Año (ej. 2017)</p> {/* Puedes añadir el año */}
+                  </CardBody>
+                </Card>
+
+                <Card className="border border-neutral-200">
+                  <CardBody>
+                    <h3 className="text-lg font-semibold mb-1">Diplomado en Legislación Laboral en Honduras</h3>
+                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
+                    <p className="text-sm text-neutral-600">Año (ej. 2018)</p>
+                  </CardBody>
+                </Card>
+
+                <Card className="border border-neutral-200">
+                  <CardBody>
+                    <h3 className="text-lg font-semibold mb-1">Diplomado en Inglés para la Comunicación Internacional</h3>
+                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
+                    <p className="text-sm text-neutral-600">Año (ej. 2019)</p>
+                  </CardBody>
+                </Card>
+
+                <Card className="border border-neutral-200">
+                  <CardBody>
+                    <h3 className="text-lg font-semibold mb-1">Diplomado sobre la Extradición y Extradiciones en Honduras</h3>
+                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
+                    <p className="text-sm text-neutral-600">Año (ej. 2020)</p>
+                  </CardBody>
+                </Card>
+
+                <Card className="border border-neutral-200">
+                  <CardBody>
+                    <h3 className="text-lg font-semibold mb-1">Diplomado en Derecho Notarial</h3>
+                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
+                    <p className="text-sm text-neutral-600">Año (ej. 2021)</p>
+                  </CardBody>
+                </Card>
+
+                <Card className="border border-neutral-200">
+                  <CardBody>
+                    <h3 className="text-lg font-semibold mb-1">Diplomado en Criminalística</h3>
+                    <p className="text-neutral-500 mb-2">Institución no especificada</p>
+                    <p className="text-sm text-neutral-600">Año (ej. 2022)</p>
+                  </CardBody>
+                </Card>
+
+                {/* Mantuve el diplomado original si todavía es relevante */}
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Diplomado en Mediación y Resolución de Conflictos</h3>
@@ -95,13 +169,13 @@ export const SobreMi: React.FC = () => {
                 </Card>
               </div>
             </div>
-            
+
             {/* Experience */}
             <div>
               <h2 className="text-2xl font-serif mb-8 text-neutral-800 flex items-center">
                 <Icon icon="lucide:briefcase" className="mr-2" /> Experiencia Profesional
               </h2>
-              
+
               <div className="space-y-6">
                 <Card className="border border-neutral-200">
                   <CardBody>
@@ -113,7 +187,7 @@ export const SobreMi: React.FC = () => {
                     </p>
                   </CardBody>
                 </Card>
-                
+
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Asociada</h3>
@@ -124,7 +198,7 @@ export const SobreMi: React.FC = () => {
                     </p>
                   </CardBody>
                 </Card>
-                
+
                 <Card className="border border-neutral-200">
                   <CardBody>
                     <h3 className="text-lg font-semibold mb-1">Abogada</h3>
@@ -147,7 +221,7 @@ export const SobreMi: React.FC = () => {
           <h2 className="text-2xl md:text-3xl font-serif text-center mb-12 text-neutral-800">
             Mis Valores Profesionales
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="border border-neutral-200">
               <CardBody className="flex flex-col items-center text-center p-6">
@@ -160,7 +234,7 @@ export const SobreMi: React.FC = () => {
                 </p>
               </CardBody>
             </Card>
-            
+
             <Card className="border border-neutral-200">
               <CardBody className="flex flex-col items-center text-center p-6">
                 <div className="bg-neutral-100 p-4 rounded-full mb-4">
@@ -172,7 +246,7 @@ export const SobreMi: React.FC = () => {
                 </p>
               </CardBody>
             </Card>
-            
+
             <Card className="border border-neutral-200">
               <CardBody className="flex flex-col items-center text-center p-6">
                 <div className="bg-neutral-100 p-4 rounded-full mb-4">
@@ -194,14 +268,14 @@ export const SobreMi: React.FC = () => {
           <h2 className="text-2xl md:text-3xl font-serif text-center mb-12 text-neutral-800">
             Publicaciones y Reconocimientos
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Publications */}
             <div>
               <h3 className="text-xl font-semibold mb-6 flex items-center">
                 <Icon icon="lucide:file-text" className="mr-2" /> Publicaciones
               </h3>
-              
+
               <div className="space-y-4">
                 <div className="p-4 border border-neutral-200 rounded-lg">
                   <h4 className="font-medium mb-1">"Nuevas Tendencias en el Derecho Familiar"</h4>
@@ -210,7 +284,7 @@ export const SobreMi: React.FC = () => {
                     Análisis de las tendencias recientes en la legislación familiar y su impacto en los procedimientos judiciales.
                   </p>
                 </div>
-                
+
                 <div className="p-4 border border-neutral-200 rounded-lg">
                   <h4 className="font-medium mb-1">"La Mediación como Alternativa en Conflictos Familiares"</h4>
                   <p className="text-sm text-neutral-500 mb-2">Editorial Jurídica, 2018</p>
@@ -218,7 +292,7 @@ export const SobreMi: React.FC = () => {
                     Libro que explora los beneficios de la mediación en la resolución de conflictos familiares.
                   </p>
                 </div>
-                
+
                 <div className="p-4 border border-neutral-200 rounded-lg">
                   <h4 className="font-medium mb-1">"Derechos de los Menores en Procesos de Divorcio"</h4>
                   <p className="text-sm text-neutral-500 mb-2">Congreso Nacional de Derecho, 2017</p>
@@ -228,13 +302,13 @@ export const SobreMi: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Recognitions */}
             <div>
               <h3 className="text-xl font-semibold mb-6 flex items-center">
                 <Icon icon="lucide:award" className="mr-2" /> Reconocimientos
               </h3>
-              
+
               <div className="space-y-4">
                 <div className="p-4 border border-neutral-200 rounded-lg">
                   <h4 className="font-medium mb-1">Premio a la Excelencia Legal</h4>
@@ -243,7 +317,7 @@ export const SobreMi: React.FC = () => {
                     Reconocimiento por la contribución destacada en el ámbito del derecho familiar.
                   </p>
                 </div>
-                
+
                 <div className="p-4 border border-neutral-200 rounded-lg">
                   <h4 className="font-medium mb-1">Abogada del Año en Derecho Civil</h4>
                   <p className="text-sm text-neutral-500 mb-2">Revista Jurídica Nacional, 2019</p>
@@ -251,7 +325,7 @@ export const SobreMi: React.FC = () => {
                     Reconocimiento por casos destacados y contribuciones al campo del derecho civil.
                   </p>
                 </div>
-                
+
                 <div className="p-4 border border-neutral-200 rounded-lg">
                   <h4 className="font-medium mb-1">Certificación en Mediación Familiar</h4>
                   <p className="text-sm text-neutral-500 mb-2">Instituto de Justicia Alternativa, 2016</p>
